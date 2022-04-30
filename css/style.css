@@ -1,0 +1,80 @@
+/*
+Colors used:
+Primary  Color (black): #444444;
+Secondary Color (Blue): #88b0d9;
+Background Color (light grey): #ededed;
+*/
+
+body {
+    background-color: #ededed;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #444444;
+
+}
+
+h1 {
+    font-family: 'montserrat', sans-serif;
+    font-size: 26px;
+}
+
+h2 {
+    font-family: 'Lora', sans-serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'montserrat';
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #9b7b4e;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+    color: #7f6240;
+}
+
+.button {
+    display: inline-block;
+    background-color: transparent;
+    color: #9b7b4e;
+    border: 1px solid #9b7b4e;
+}
+
+.button:hover,
+.button:focus {
+    background-color: transparent;
+    color: #7f6240;
+    border: 1px solid #7f6240;
+    text-decoration: none;
+}
+
+.fa-brands {
+    color: #444444;
+    font-size: 26px;
+    font-style: normal;
+}
+
+.fa-brands:hover,
+.fa-brands:focus {
+    text-decoration: none;
+    color: #444444;
+}
