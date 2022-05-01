@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'montserrat';
+    font-family: 'montserrat', sans-serif;
     font-size: 20px;
 }
 
@@ -111,4 +111,8 @@ a:focus {
 #work .row {
     padding-bottom: 25px;
     border-bottom: 2px solid #4a4a4a;
+}
+
+#hero h1 {
+    text-align: center;
 }
