@@ -19,11 +19,11 @@
 </head>
 
 <body>
-    <header class="container">
-        <div>
-            <img src="img/logos/logobrittaeggert_purple.svg" alt="Britta Eggert UX Design">
+    <header>
+        <div class="container">
+            <img src="img/logos/logobrittaeggert_purple.svg" alt="Britta Eggert UX Design" class="logo">
             <nav>
-                <ul>
+                <ul class="navigation">
                     <li><a href="index.html">Work</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -37,22 +37,23 @@
         <div>
             <p>
                 <picture>
-                    <source srcset="img/progress/progress-logo_1x.png" media="(max-width:810px)">
-                    <img src="img/progress/progress-logo_2x.png">
+                    <img src="img/progress/progress-logo_2x.png" class="logoprogress">
                 </picture>
             </p>
-            <picture>
-                <source srcset="img/progress/dashboard_1x.png" media="(max-width:810px)">
-                <img src="img/progress/dashboard_2x.png">
-            </picture>
-            <picture>
-                <source srcset="img/progress/profile_1x.png" media="(max-width:810px)">
-                <img src="img/progress/profile_2x.png">
-            </picture>
-            <picture>
-                <source srcset="img/progress/search_1x.png" media="(max-width:810px)">
-                <img src="img/progress/search_2x.png">
-            </picture>
+            <div class="threecol">
+                <picture>
+                    <source srcset="img/progress/dashboard_1x.png" media="(max-width:810px)">
+                    <img src="img/progress/dashboard_2x.png">
+                </picture>
+                <picture>
+                    <source srcset="img/progress/profile_1x.png" media="(max-width:810px)">
+                    <img src="img/progress/profile_2x.png">
+                </picture>
+                <picture>
+                    <source srcset="img/progress/search_1x.png" media="(max-width:810px)">
+                    <img src="img/progress/search_2x.png">
+                </picture>
+            </div>
         </div>
         <!--END | PROJECT HEADER-->
 
@@ -277,18 +278,20 @@
                 Below you can see the development from low-fidelity over mid-fidelity to high-fidelity wireframe.<br>
                 Based on using a login screen, an expert's screen, and booking screen as an example.
             </p>
-            <picture>
-                <source srcset="img/progress/expert-low_1x.png" media="(max-width:810px)">
-                <img src="img/progress/expert-low_2x.png" alt="lowfidelity">
-            </picture>
-            <picture>
-                <source srcset="img/progress/expert-mid_1x.png" media="(max-width:810px)">
-                <img src="img/progress/expert-mid_2x.png" alt="midfidelity">
-            </picture>
-            <picture>
-                <source srcset="img/progress/expert-high_1x.png" media="(max-width:810px)">
-                <img src="img/progress/expert-high_2x.png" alt="highfidelity">
-            </picture>
+            <div class="threecol">
+                <picture>
+                    <source srcset="img/progress/expert-low_1x.png" media="(max-width:810px)">
+                    <img src="img/progress/expert-low_2x.png" alt="lowfidelity">
+                </picture>
+                <picture>
+                    <source srcset="img/progress/expert-mid_1x.png" media="(max-width:810px)">
+                    <img src="img/progress/expert-mid_2x.png" alt="midfidelity">
+                </picture>
+                <picture>
+                    <source srcset="img/progress/expert-high_1x.png" media="(max-width:810px)">
+                    <img src="img/progress/expert-high_2x.png" alt="highfidelity">
+                </picture>
+            </div>
         </div>
         <!--END | PROCESS OF WIREFRAMING-->
 
