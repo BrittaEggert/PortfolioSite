@@ -58,30 +58,50 @@ img {
     width: 100%;
 }
 
-a {
-    color: #b60f80;
+/* link states*/
+
+
+nav>ul>li>a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #575756;
     text-decoration: none;
-    font-weight: 600;
 }
 
-a:hover,
-a:focus {
-    text-decoration: underline;
-    color: #671565;
+nav>ul>li>a:hover,
+nav>ul>li>a:focus {
+    color: #b60f80;
 }
 
-.button {
+a.button {
     display: inline-block;
     background-color: transparent;
     color: #b60f80;
     border: 1px solid #b60f80;
     padding: 4px 10px;
+    text-decoration: none;
 }
 
-.button:hover,
-.button:focus {
+a.button:hover,
+a.button:focus {
     color: #671565;
     border: 1px solid #671565;
+}
+
+a.textlink {
+    color: #b60f80;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a.textlink:hover,
+a.textlink:focus {
+    text-decoration: underline;
+    color: #671565;
+}
+
+a.social {
     text-decoration: none;
 }
 
@@ -89,12 +109,12 @@ a:focus {
     color: #575756;
     font-size: 26px;
     font-style: normal;
+    padding: 5px;
 }
 
 .fa-brands:hover,
 .fa-brands:focus {
-    text-decoration: none;
-    color: #575756;
+    color: #4a4a4a;
 }
 
 
@@ -133,20 +153,6 @@ nav>ul {
 
 nav>ul>li {
     display: inline-block;
-}
-
-nav>ul>li>a {
-    padding: 0 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #575756;
-}
-
-nav>ul>li>a:hover,
-nav>ul>li>a:focus {
-    color: #b60f80;
-    text-decoration: none;
-
 }
 
 #hero {
