@@ -36,6 +36,10 @@ header {
     position: fixed;
 }
 
+img {
+    width: 100%;
+}
+
 main {
     padding-top: 140px;
 }
@@ -48,12 +52,15 @@ h1 {
 h2 {
     font-family: 'Lora', sans-serif;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
 }
 
 h3 {
     font-family: 'montserrat', sans-serif;
     font-size: 20px;
+    text-align: left;
+    margin-top: -3px;
+    line-height: initial;
 }
 
 h4 {
@@ -61,11 +68,9 @@ h4 {
     font-size: 16px;
     font-weight: 600;
     margin-top: 0;
+    margin-bottom: -10px;
 }
 
-img {
-    width: 100%;
-}
 
 
 /* link states*/
@@ -137,22 +142,23 @@ a.social {
 
 .row {
     margin: 25px 0;
+}
+
+.row.flex {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
 .row>div {
-    flex-basis: 50%;
+    flex-basis: calc(50% - 15px);
 }
 
-#work .row {
+#work .row,
+#about .row,
+#progress .row {
     padding-bottom: 25px;
     border-bottom: 1px solid #4a4a4a;
-}
-
-#hero h1 {
-    text-align: center;
 }
 
 .logo {
@@ -206,7 +212,7 @@ picture {
         float: left;
     }
 
-    .row {
+    .row.flex {
         flex-direction: row;
     }
 

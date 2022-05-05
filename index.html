@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lora:ital,wght@1,500&family=Montserrat:wght@600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lora:ital,wght@1,500&family=Montserrat:wght@600&display=block"
     rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -22,7 +22,7 @@
     <div class="container">
       <img src="img/logos/logobrittaeggert_purple.svg" alt="Britta Eggert UX Design" class="logo">
       <nav>
-        <ul>
+        <ul class="navigation">
           <li><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -32,7 +32,6 @@
   </header>
 
   <main>
-
     <div id="hero">
       <div class="container">
         <h1>Hi, my name is Britta.
@@ -47,8 +46,8 @@
 
     <div id="work">
       <div class="container">
-        <h3>My work</h3>
-        <div class="row">
+        <h1>My work</h1>
+        <div class="row flex">
           <div>
             <picture>
               <source srcset="img/progress/1x/progressplaceholder_1x.jpg" media="(max-width:767px)">
@@ -56,27 +55,15 @@
             </picture>
           </div>
           <div>
-            <h4>PROgress</h4>
+            <h3>PROgress</h3>
             <p>
               PROgress is a web application especially made for women to get advice from experienced women within the
               fitness industry.
             </p>
-            <h4>My role:</h4>
-            <p>
-              I was responsible for conducting user tests, creating personas, user flows, user journeys,<br>
-              setting up a navigation plan, creating wireframes, the logo design, writing down the UI Design Style
-              guide,<br>
-              polishing up final mockups, and creating a clickable prototype.
-            </p>
-            <h4>Used tools:</h4>
-            <p>
-              Tools I used for the project were: Balsamiq, Adobe XD, Miro, Figma, Flowmapp, Typeform,<br>
-              Usability hub, Illustrator, Photoshop, Post-its, pen, and paper.
-            </p>
             <a href="progress.html" target="_self" class="button">Read more</a>
           </div>
         </div>
-        <div class="row">
+        <div class="row flex">
           <div>
             <picture>
               <source srcset="img/progress/1x/printplaceholder_1x.jpg" media="(max-width:767px)">
@@ -84,9 +71,12 @@
             </picture>
           </div>
           <div>
-            <h4>Print Design</h4>
-            <p>This gallery shows a selection of my work from the last few years</p>
-            <h4>Used tools:</h4>
+            <h3>Print Design</h3>
+            <p>
+              This gallery shows a selection of my work from the last few years</p>
+            <h4>
+              Used tools:
+            </h4>
             <p>
               Tools were mainly Illustrator, Photoshop and InDesign.
             </p>
@@ -109,9 +99,9 @@
         <br>
         Or do you prefer sending an email?
       </p>
-      <div>
+      <p>
         <a class="button" href="mailto:britta@familyeggert.com">Email me</a>
-      </div>
+      </p>
       <div>
         <a class="social" href="https://twitter.com/noruihen>Twitter" target="_blank">
           <i class="fa-brands fa-twitter"></i>
