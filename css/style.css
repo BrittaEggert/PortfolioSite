@@ -91,21 +91,25 @@ nav>ul>li>a:focus {
 
 a.button {
     display: inline-block;
-    background-color: transparent;
+    background-color: #f4f4f4;
     color: #b60f80;
     border: 1px solid #b60f80;
     padding: 4px 10px;
     text-decoration: none;
+    transition-duration: 0.5s;
+    transition-property: 0.2s opacity;
 }
 
 a.button:hover,
 a.button:focus {
-    color: #671565;
+    background-color: #b60f80;
+    color: #f4f4f4;
     border: 1px solid #671565;
+    opacity: 0.8;
 }
 
 a.textlink {
-    color: #b60f80;
+    color: #671565;
     text-decoration: none;
     font-weight: 600;
 }
@@ -113,7 +117,7 @@ a.textlink {
 a.textlink:hover,
 a.textlink:focus {
     text-decoration: underline;
-    color: #671565;
+    color: #b60f80;
 }
 
 a.social {
