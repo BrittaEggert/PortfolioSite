@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="icon" href="img/favicon/favicon.ico">
     <title>PROgress Web App Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -21,14 +21,19 @@
 <body>
     <header>
         <div class="container">
-            <img src="img/logos/logobrittaeggert_purple.svg" alt="Britta Eggert UX Design" class="logo">
-            <nav>
-                <ul class="navigation">
-                    <li><a href="index.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="navtoggle" id="myNavtoggle">
+                <img src="img/logos/logobrittaeggert_purple.svg" alt="Britta Eggert UX Design" class="logo">
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i
+                                    class="fa-solid fa-bars"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -367,6 +372,8 @@
             <p>Copyright Britta Eggert 2022</p>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </body>
 
